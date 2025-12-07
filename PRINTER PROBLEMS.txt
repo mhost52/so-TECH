@@ -1,0 +1,53 @@
+Saya sudah telaah isi file **MEMO PO.xlsx** yang kamu lampirkan. Dari daftar memo tersebut, saya fokus pada baris yang berhubungan dengan **ORDER printer** dan melihat apakah ada keterangan **(RUSAK)** (pengganti karena rusak) atau tidak (permintaan unit baru).
+
+### 🔎 Hasil identifikasi
+**Permintaan printer pengganti (rusak):**
+1. Wahdyat – MTC GREY LJ3 → Epson L-121 (PR 10800139)  
+2. Erisa – DF LJ1 → Proyektor + Komputer (skip, bukan printer)  
+3. Putri – Bea Cukai → Epson L3210 (PR 10800953) **(RUSAK)**  
+4. Hengky – QA & Inspecting Grey → Epson L1250 (PR 10800635) **(RUSAK)**  
+5. Margianto – Final LJ1 → Monitor 19" (skip, bukan printer)  
+6. Erik – Personalia → Finger Scan (skip, bukan printer)  
+7. Erik – Personalia → Finger Scan LJ2 (skip)  
+8. Harry – MTC Proc LJ1 → DVR + CCTV (skip)  
+9. Imelda – Keuangan → Epson L3210 (PR 10801723) **(RUSAK)**  
+10. Hengky – QA & Inspecting Grey → Monitor 19" (skip)  
+11. Dessy – Bea Cukai → Monitor TV 32" + Kabel VGA (PR 10803933) **(RUSAK)**  
+12. Hengky – QA & Inspecting Grey LJ1 → Monitor 22" (skip)  
+13. Agus – GD Benang & Grey → Komputer + Epson LQ-310 (PR 10802464) **(RUSAK)**  
+14. Hendra – OD & TM → Komputer (skip)  
+15. Insan – BI → Kabel HDMI (skip)  
+16. Rizal – GD Obat → Epson TMU-220D (PR 10803362) **(RUSAK)**  
+17. Agus – DF LJ2 → Monitor 22" (skip)  
+
+👉 **Total printer rusak (pengganti): 6 permintaan**
+
+---
+
+**Permintaan printer baru (tanpa keterangan rusak):**
+1. Wahdyat – MTC GREY LJ3 → Epson L-121 (PR 10800139)  
+2. Erik – Personalia → Finger Scan (skip)  
+3. Erlin – Utility → Epson L-121 + Print Server (PR 10800429)  
+4. Ayu – GA → Komputer + Telp Digital + Printer (PR 10800676)  
+5. Dadang – DF LJ1 → 2 Monitor 32" (skip)  
+6. Harry – MTC Proc LJ1 → DVR + CCTV (skip)  
+7. Ravie – Legal → Webcam + Microphone + Headset + Upgrade RAM (skip)  
+8. Margianto – Final LJ1 → Monitor 19" (skip)  
+9. Tony – Laboratorium → Epson L3210 (PR 10803217)  
+10. Jassen – Final LJ2 → Epson L121 (PR 10803700)  
+11. Reyza – BI → Komputer + Epson L121 (PR 10801342)  
+12. Hengky – QA & Inspecting Grey → Epson L1250 (PR 10800635)  
+
+👉 **Total printer baru: 6 permintaan**
+
+---
+
+### 📊 Ringkasan
+| Kategori                  | Jumlah |
+|----------------------------|--------|
+| Printer pengganti (rusak) | **6** |
+| Printer baru              | **6** |
+
+---
+
+Billy, kalau kamu mau, saya bisa buatkan **pivot-style breakdown** per departemen (misalnya GA, Utility, Bea Cukai, QA, dll.) supaya terlihat jelas departemen mana yang paling sering minta penggantian printer rusak. Mau saya susun juga?
