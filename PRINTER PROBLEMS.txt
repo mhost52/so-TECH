@@ -299,7 +299,7 @@ Ah, sip Billy — saya tangkap maksudmu. Kamu ingin saya **menarik isi kolom `CO
   - *“U/ BAGIAN GUDANG BENANG (I5 GEN 6) (HS CODE : 8479.89.50). SALIK”*  
   - *“U/ BAGIAN GD BENANG (PENDATAAN STOCK BENANG DI GUDANG BARU) ( I5 GEN6) (HS CODE : 8479.89.50). SALIK”*  
 
-- **GD Grey LJ1 (Stock 5 vs Pembelian 2 → -3)**
+- **GD Grey LJ1 (Stock 5 vs Pembelian 2 → -3)** 
   - *“U/ PROGRAM APLIKASI BARU GD GREY LJ1 (I5 GEN 6) (HS CODE : 8479.89.50). AGUS”*  
   - *“U/ BAGIAN GD GREY (GUDANG BARU)(I5 GEN 6) (HS CODE : 8479.89.50). AGUS”*  
 
@@ -317,6 +317,47 @@ Ah, sip Billy — saya tangkap maksudmu. Kamu ingin saya **menarik isi kolom `CO
   - (NB: ini terkait persiapan/grey, kemungkinan overlap dengan LJ1). 
 
 
+## 📌 List Kolom `COMMENTS` (hanya untuk bagian dengan selisih)
+
+- **Marketing (Stock 5 vs Pembelian 4 → -1)** 1 dari PO 2024
+  - *“URGENT : U/ BAGIAN MARKETING (I7 GEN 6)(HS CODE : 8479.89.50). YUANITA”*  
+  - *“U/ BAGIAN MARKETING (3) & FINAL INSPECTING LJ1 (1) (I5 GEN 6) (HS CODE : 8528.52.00). ELFHA & MARGIANTO”*  
+
+- **ODTM (Stock 8 vs Pembelian 5 → -3)** 8  keyword odtm sama od&tm
+  - *“U/ SUPERVISOR BARU BAGIAN ODTM (I5 GEN6)(HS CODE : 8479.89.50). HENDRA”*  
+  - *“URGENT : U/ PENAMBAHAN KARYAWAN BARU BAGIAN OD&TM ( I5GEN6) (HS CODE : 8479.89.50). HENDRA”*  
+  - *“U/ BAGIAN OD&TM (3) & MENGGANTI YG RUSAK BAGIAN PERSIAPAN LJ1 (HS CODE : 8479.89.50). M HARRY & DEDI”*  
+
+- **RND (Stock 3 vs Pembelian 2 → -1)** Ok 1 dari 2024 Ok
+  - *“U/ BAGIAN RND (I5 GEN 6) (HS CODE : 8479.89.50). ANDREAS”*  
+  - *“U/ MENGGANTI YG RUSAK BAGIAN ACCOUNTING DAN R&D (I5 GEN6)(HS CODE : 8479.89.50). LENNY & SANDY”*  
+
+- **PPC Processing LJ1 (Stock 2 vs Pembelian 1 → -1)** Ok keyword processing pilih tahun 2025
+  - *“U/ KARYAWAN BARU DI BAGIAN PPC PROC LJ1( I5 GEN6)(HS CODE : 8479.89.50). CANRA”*  
+
+- **Final Inspecting LJ1 (Stock 2 vs Pembelian 1 → -1)** beli 1 1 lagi dari yg lain 
+  - *“U/ BAGIAN MARKETING (3) & FINAL INSPECTING LJ1 (1) (I5 GEN 6) (HS CODE : 8528.52.00). ELFHA & MARGIANTO”*  
+
+- **GD Benang (Stock 1 vs Pembelian 2 → +1)** ok rusak 2 baru 1 dari po 2024
+  - *“U/ BAGIAN GUDANG BENANG (I5 GEN 6) (HS CODE : 8479.89.50). SALIK”*  
+  - *“U/ BAGIAN GD BENANG (PENDATAAN STOCK BENANG DI GUDANG BARU) ( I5 GEN6) (HS CODE : 8479.89.50). SALIK”*  
+
+- **GD Grey LJ1 (Stock 5 vs Pembelian 2 → -3)** OK pembelian 3 unit + 1 gd baru 
+  - *“U/ PROGRAM APLIKASI BARU GD GREY LJ1 (I5 GEN 6) (HS CODE : 8479.89.50). AGUS”*  
+  - *“U/ BAGIAN GD GREY (GUDANG BARU)(I5 GEN 6) (HS CODE : 8479.89.50). AGUS”*  
+
+- **QA Final (Stock 1 vs Pembelian 0 → -1)** ok
+  - ❌ Tidak ada komentar di file pembelian (karena tidak ada PR/PO untuk QA Final).  
+
+- **Kabag Personalia & Legal (Stock 1 vs Pembelian 0 → -1)** masih dipake hendra ?
+  - ❌ Tidak ada komentar di file pembelian.  
+
+- **Asmen Maintenance (Stock 1 vs Pembelian 0 → -1)** Ok asmen teknik
+  - ❌ Tidak ada komentar di file pembelian.  
+
+- **Maintenance Persiapan LJ1 (Stock 2 vs Pembelian 1 → -1)**
+  - *“U/ MENGGANTI YG RUSAK BAGIAN PPC GREY LJ2 (HS CODE : 8479.89.50). IWAN”*  
+  - (NB: ini terkait persiapan/grey, kemungkinan overlap dengan LJ1).  
 
 
 
