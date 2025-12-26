@@ -1,0 +1,36 @@
+Oke Billy, mari kita bahas **Subnet Mask untuk kelas A, B, dan C** secara jelas 👇  
+
+---
+
+### 📘 Kelas IP Address dan Subnet Mask Standar
+
+| Kelas | Range IP Address (Awal) | Subnet Mask Default | Notasi CIDR | Jumlah Host per Network |
+|-------|--------------------------|---------------------|-------------|-------------------------|
+| **A** | 1.0.0.0 – 126.255.255.255 | 255.0.0.0 | /8  | ± 16.777.214 host |
+| **B** | 128.0.0.0 – 191.255.255.255 | 255.255.0.0 | /16 | ± 65.534 host |
+| **C** | 192.0.0.0 – 223.255.255.255 | 255.255.255.0 | /24 | ± 254 host |
+
+---
+
+### 🔎 Penjelasan Singkat
+- **Kelas A**  
+  - Subnet mask: `255.0.0.0` → berarti 8 bit pertama untuk network, 24 bit sisanya untuk host.  
+  - Cocok untuk jaringan sangat besar (jutaan host).  
+
+- **Kelas B**  
+  - Subnet mask: `255.255.0.0` → berarti 16 bit pertama untuk network, 16 bit sisanya untuk host.  
+  - Cocok untuk jaringan menengah (puluhan ribu host).  
+
+- **Kelas C**  
+  - Subnet mask: `255.255.255.0` → berarti 24 bit pertama untuk network, 8 bit sisanya untuk host.  
+  - Cocok untuk jaringan kecil (ratusan host).  
+
+---
+
+Kalau mau lebih menantang, saya bisa bikin soal hitungan subnetting, misalnya:  
+**"Jika IP 192.168.10.0/26, berapa jumlah subnet dan host per subnet?"**  
+
+Mau saya buatkan soal hitungan seperti itu biar tim kamu bisa latihan praktek langsung?
+
+
+
