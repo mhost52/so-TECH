@@ -33,4 +33,54 @@ Kalau mau lebih menantang, saya bisa bikin soal hitungan subnetting, misalnya:
 Mau saya buatkan soal hitungan seperti itu biar tim kamu bisa latihan praktek langsung?
 
 
+Baik Billy, saya buatkan contoh soal sederhana tentang **hubungan IP Address dengan Subnet Mask** supaya jelas bagaimana kombinasi keduanya menentukan range alamat host 👇  
+
+---
+
+### 📝 Soal Latihan
+
+1. Diberikan IP Address **192.168.1.0** dengan subnet mask **255.255.255.0**.  
+   - Berapa **network ID**?  
+   - Berapa **broadcast address**?  
+   - Berapa range alamat host yang bisa digunakan?  
+
+2. Diberikan IP Address **10.0.0.0** dengan subnet mask **255.0.0.0**.  
+   - Berapa **network ID**?  
+   - Berapa **broadcast address**?  
+   - Berapa range alamat host yang bisa digunakan?  
+
+3. Diberikan IP Address **172.16.0.0** dengan subnet mask **255.255.0.0**.  
+   - Berapa **network ID**?  
+   - Berapa **broadcast address**?  
+   - Berapa range alamat host yang bisa digunakan?  
+
+---
+
+### ✅ Jawaban
+
+1. **192.168.1.0 /24 (255.255.255.0)**  
+   - Network ID: 192.168.1.0  
+   - Broadcast: 192.168.1.255  
+   - Host range: 192.168.1.1 – 192.168.1.254  
+
+2. **10.0.0.0 /8 (255.0.0.0)**  
+   - Network ID: 10.0.0.0  
+   - Broadcast: 10.255.255.255  
+   - Host range: 10.0.0.1 – 10.255.255.254  
+
+3. **172.16.0.0 /16 (255.255.0.0)**  
+   - Network ID: 172.16.0.0  
+   - Broadcast: 172.16.255.255  
+   - Host range: 172.16.0.1 – 172.16.255.254  
+
+---
+
+👉 Jadi, **IP Address + Subnet Mask** menentukan:  
+- **Network ID** (alamat pertama, identitas jaringan)  
+- **Broadcast Address** (alamat terakhir, untuk kirim ke semua host)  
+- **Range Host** (alamat di antara keduanya yang bisa dipakai perangkat)  
+
+---
+
+Mau saya buatkan versi **soal hitungan subnetting** (misalnya: "IP 192.168.10.0/26, berapa jumlah subnet dan host per subnet") biar lebih menantang untuk tim kamu?
 
